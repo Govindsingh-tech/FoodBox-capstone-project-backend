@@ -1,0 +1,18 @@
+logging:
+  level:
+    org:
+      springframework:
+        web: DEBUG
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: jayasree1#
+    url: jdbc:mysql://database-foodbox.cjfotc5525f0.us-east-1.rds.amazonaws.com:3306/foodboxdb?allowPublicKeyRetrieval=true&useSSL=false
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+    show-sql: true
