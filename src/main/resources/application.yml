@@ -6,7 +6,7 @@ logging:
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    password: jayasree1#
+    password: password
     url: jdbc:mysql://database-foodbox.cjfotc5525f0.us-east-1.rds.amazonaws.com:3306/foodboxdb?allowPublicKeyRetrieval=true&useSSL=false
     username: root
   jpa:
